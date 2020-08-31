@@ -5,9 +5,9 @@ Bot com python e telegram
 Linux Mint
 
 # Comandos para instalar o necessário:
-sudo apt-get install python3-pip
-sudo apt-get install curl
-pip3 install urllib3
-pip3 install --upgrade setup
-pip3 install pyTelegrambotapi
+sudo apt-get install python3-pip \n
+sudo apt-get install curl \n
+pip3 install urllib3 \n
+pip3 install --upgrade setup \n
+pip3 install pyTelegrambotapi \n
 apt install gedit
