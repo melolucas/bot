@@ -19,7 +19,7 @@ def send_cep_step(message):
     mensagem_cep = message.text 
     url = "https://viacep.com.br/ws/" + mensagem_cep + "/json/"
     response = urllib.request.urlopen(url)
-    data = json.loads(response.ready())
+    data = json.loads(response.read())
 
     cep = data['cep']
     logradouro = data['logradouro']
