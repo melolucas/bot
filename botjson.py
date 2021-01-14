@@ -4,7 +4,7 @@ import json
 import urllib.request
 
 #TOKEN DO BOT
-API_TOKEN = 'TOKEN DO BOT'
+API_TOKEN = ''
 
 bot = telebot.TeleBot(API_TOKEN)
 

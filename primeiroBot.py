@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 
 #Token do bot
-API_TOKEN = 'colocar o token do bot aqui'
+API_TOKEN = ''
 
 bot = telebot.TeleBot(API_TOKEN)
 
